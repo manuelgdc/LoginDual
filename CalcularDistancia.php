@@ -15,9 +15,9 @@ function distanceCalculation($point1_lat, $point1_long, $point2_lat, $point2_lon
 ?>
 
 <?php
-$point1 = array("lat" => "48.8666667", "long" => "2.3333333"); // coordenadas París 
-$point2 = array("lat" => "19.4341667", "long" => "-99.1386111"); // corrdenadas Ciudad de México 
+$point1 = array("lat" => "48.8666667", "long" => "2.3333333"); // coordenadas  
+$point2 = array("lat" => "19.4341667", "long" => "-99.1386111"); // corrdenadas 
 $km = distanceCalculation($point1['lat'], $point1['long'], $point2['lat'], $point2['long']); // Calcular la distancia en kilómetros 
 
-echo "La distancia entre París y la Ciudad de México  es de $km km";
+echo "La distancia entre  es de $km km";
 ?>
